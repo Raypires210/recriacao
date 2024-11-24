@@ -13,7 +13,7 @@ moldura = document.getElementById("moldura")
 
 indice = 0
 
-fotos = ["baner.jpeg", "mulher.png"]
+fotos = ["baner.jpg", "mulher.jpg"]
 
 window.onload = inicio()
 
