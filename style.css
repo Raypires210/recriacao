@@ -84,7 +84,7 @@ h4 {
 }
 
 .carrossel {
-    transition: transform 0.7s ease-in-out;
+
     overflow: hidden;
     width: 100%;
     max-width: 1250px;
@@ -203,19 +203,13 @@ h5 {
     text-align: center;
 }
 
-.whatsapp {
-    display: flex;
-    position: fixed; /* Mantém a imagem fixa durante a rolagem */
-    bottom: -25px;
-    z-index: 1;
-    width: 100%;  /* Ocupa toda a largura da tela */
-    justify-content: flex-end;
-}
-
 .img-zap {
-    width: 390px; /* Tamanho fixo da imagem */
-    margin-left: auto;  /* Garante que a imagem fique à direita */
-    margin-right: -100px; 
+    position: fixed; /* Mantém a imagem fixa durante a rolagem */
+    bottom: 40px; /* Distância da parte inferior */
+    right: 10px; /* Distância da lateral direita */
+    z-index: 100; /* Garante que fique acima de outros elementos */
+    width: 250px; /* Mantém a proporção da imagem */
+    cursor: pointer; 
 }
 
 .email a {
@@ -318,11 +312,12 @@ h5 {
         display: none;
     }
 
-    .img-zap{
-        margin-right: -125px;
-        height: 100px;
-        object-fit: cover;
-        transform: scale(0.8);
-
-    }   
+    .img-zap {
+        position: fixed; /* Mantém a imagem fixa durante a rolagem */
+        bottom: 85px; /* Distância da parte inferior */
+        right: 10px; /* Distância da lateral direita */
+        z-index: 100; /* Garante que fique acima de outros elementos */
+        width: 180px; /* Mantém a proporção da imagem */
+        cursor: pointer; 
+    }      
 } 
