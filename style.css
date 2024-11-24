@@ -84,6 +84,7 @@ h4 {
 }
 
 .carrossel {
+    transition: transform 0.7s ease-in-out;
     overflow: hidden;
     width: 100%;
     max-width: 1250px;
